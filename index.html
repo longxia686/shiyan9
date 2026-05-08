@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验九 - 美丽九宫格（fieldset 分组）</title>
+    <link rel="stylesheet" href="lab7.css">
+</head>
+<body>
+    <div id="top"></div>
+    <a class="back-home" href="#top" aria-label="返回首页">返回首页</a>
+
+    <main class="lab7">
+        <header class="lab7-header">
+            <h1 class="lab7-title">烟台理工学院校园首页</h1>
+        </header>
+
+        <fieldset class="theme theme--float" aria-label="主题一（浮动）">
+            <legend>基本信息</legend>
+            <a class="tile" href="#top" aria-label="学院概况">
+                <div class="tile-badge" aria-hidden="true">概况</div>
+                <div class="tile-bg tile-bg--1" aria-hidden="true"></div>
+                <div class="tile-title">学院概况 · 办学定位</div>
+            </a>
+            <a class="tile" href="#top" aria-label="校园新闻">
+                <div class="tile-badge" aria-hidden="true">新闻</div>
+                <div class="tile-bg tile-bg--2" aria-hidden="true"></div>
+                <div class="tile-title">校园新闻 · 本周要闻</div>
+            </a>
+            <a class="tile" href="#top" aria-label="院系设置">
+                <div class="tile-badge" aria-hidden="true">院系</div>
+                <div class="tile-bg tile-bg--3" aria-hidden="true"></div>
+                <div class="tile-title">院系设置 · 专业导航</div>
+            </a>
+        </fieldset>
+
+        <fieldset class="theme theme--abs" aria-label="主题二（绝对定位）">
+            <legend>专业能力</legend>
+            <a class="tile" href="#top" aria-label="教学科研">
+                <div class="tile-badge tile-badge--abs" aria-hidden="true">科研</div>
+                <div class="tile-bg tile-bg--4" aria-hidden="true"></div>
+                <div class="tile-title">教学科研 · 重点实验室</div>
+            </a>
+            <a class="tile" href="#top" aria-label="校园风光">
+                <div class="tile-badge tile-badge--abs" aria-hidden="true">风光</div>
+                <div class="tile-bg tile-bg--5" aria-hidden="true"></div>
+                <div class="tile-title">校园风光 · 春夏秋冬</div>
+            </a>
+            <a class="tile" href="#top" aria-label="校园服务">
+                <div class="tile-badge tile-badge--abs" aria-hidden="true">服务</div>
+                <div class="tile-bg tile-bg--6" aria-hidden="true"></div>
+                <div class="tile-title">校园服务 · 图书与后勤</div>
+            </a>
+        </fieldset>
+
+        <fieldset class="theme theme--flex" aria-label="主题三（常规布局）">
+            <legend>综合说明</legend>
+            <a class="tile" href="#top" aria-label="招生就业">
+                <div class="tile-badge" aria-hidden="true">招生</div>
+                <div class="tile-bg tile-bg--7" aria-hidden="true"></div>
+                <div class="tile-title">招生就业 · 报考指南</div>
+            </a>
+            <a class="tile" href="#top" aria-label="通知公告">
+                <div class="tile-badge" aria-hidden="true">公告</div>
+                <div class="tile-bg tile-bg--8" aria-hidden="true"></div>
+                <div class="tile-title">通知公告 · 校历安排</div>
+            </a>
+            <a class="tile" href="#top" aria-label="联系我们">
+                <div class="tile-badge" aria-hidden="true">联系</div>
+                <div class="tile-bg tile-bg--9" aria-hidden="true"></div>
+                <div class="tile-title">联系我们 · 校园地图</div>
+            </a>
+        </fieldset>
+    </main>
+</body>
+</html>
